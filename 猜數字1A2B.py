@@ -19,7 +19,7 @@ while True:
         for i in range(4):
             if x[i] == z[i]:
                 a += 1
-        # 集合(x) 減去 集合(z) 就是只有一樣的數字
+        # 集合(x) 減去 集合(z) 就是只剩有相同的數字
         # -a 就是減去相同位置且相同數字的
         b = 4 - len(set(x) - set(z)) - a
         # print(set(x), set(z))
